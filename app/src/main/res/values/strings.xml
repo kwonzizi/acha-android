@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">acha-android</string>
+    <string name="description_logo" />
+    <string name="description_logos" />
 </resources>
