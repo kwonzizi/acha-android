@@ -8,5 +8,5 @@
     <color name="lightGrey">#fff3f3f3</color>
     <color name="darkGrey">#ff555555</color>
     <color name="dark_grey_pressed_mask">#11000000</color>
-    <color name = "default_text_color">##FF000000</color>
+    <color name = "default_text_color">#FF000000</color>
 </resources>
