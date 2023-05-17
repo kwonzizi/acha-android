@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        tools:ignore="MissingConstraints" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar_plan_plus"
+            android:text="@string/plus_plan_subject"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="409dp"
+        android:layout_height="60dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="118dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/plus_plan_context"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/plus_plan_context"
+            android:textSize="30sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/plus_plan_date"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:text="@string/plus_plan_date"
+        android:textSize="30sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="@+id/plus_plan_clock"
+
+        android:layout_marginLeft="50dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <ImageView
+        android:id="@+id/plus_plan_clock"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/plus_plan_date"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/clock"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <TextView
+        android:id="@+id/plus_plan_repeat"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="92dp"
+        android:gravity="center_vertical"
+        android:text="@string/plus_plan_repeat"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/plus_plan_repeat_image"
+        app:layout_constraintTop_toTopOf="@+id/plus_plan_date" />
+
+    <ImageView
+        android:id="@+id/plus_plan_repeat_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintEnd_toStartOf="@+id/plus_plan_date"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/repeat"
+        tools:layout_editor_absoluteY="287dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:srcCompat="@drawable/bell"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="384dp"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/plus_plan_notification"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="96dp"
+        android:gravity="center_vertical"
+        android:text="@string/plus_plan_notification"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="@+id/plus_plan_repeat_image"
+        app:layout_constraintTop_toTopOf="@+id/plus_plan_repeat" />
+
+    <Button
+        android:id="@+id/plus_plan_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plus_plan_delete"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

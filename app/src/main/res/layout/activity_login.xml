@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:contentDescription="@string/description_logos"
-        android:src="@mipmap/ic_launcher_round"></ImageView>
+        android:src="@mipmap/ic_launcher_round"/>
 
     <LinearLayout
         android:layout_width="match_parent"
