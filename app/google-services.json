@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "763172627032",
-    "project_id": "login-test-e6da1",
-    "storage_bucket": "login-test-e6da1.appspot.com"
+    "project_number": "651792948535",
+    "project_id": "acha-bd010",
+    "storage_bucket": "acha-bd010.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:763172627032:android:e9c666707e66378644602d",
+        "mobilesdk_app_id": "1:651792948535:android:40e1be891310c7f0ea4eb2",
         "android_client_info": {
           "package_name": "com.acha.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "763172627032-ocbfdmkhm3oq2ajn76b22mo63vghj8c7.apps.googleusercontent.com",
+          "client_id": "651792948535-89tkhissvh1q13mbq77p3c05r9rvrvbk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.acha.app",
-            "certificate_hash": "c22d00da2a33a23ef343c697c7cf1cf86c9330c1"
+            "certificate_hash": "9d47833183e179f4b3e88571d65b637e7c1c4ec7"
           }
         },
         {
-          "client_id": "763172627032-63t5ov5egf4e74112o54m4rm0uvld7u1.apps.googleusercontent.com",
+          "client_id": "651792948535-0lncfbt93koqjrt6ajdf5j3qthv5hd8o.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyClIIePhWUtetXcqd8BSrALuK6RDMBjyHc"
+          "current_key": "AIzaSyB8BcqUCSBXtHPfjiMlUzWFQsmfPb27tbk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "763172627032-63t5ov5egf4e74112o54m4rm0uvld7u1.apps.googleusercontent.com",
+              "client_id": "651792948535-0lncfbt93koqjrt6ajdf5j3qthv5hd8o.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
